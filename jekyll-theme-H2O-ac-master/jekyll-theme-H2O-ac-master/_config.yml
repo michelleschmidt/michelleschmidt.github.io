@@ -1,22 +1,10 @@
-# Site settings 配置站点
-title: 'Mr Li'
-description: '个人的一个技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。'
-keyword: 'zhonger，zhonger的博客，nodejs，kvm, 机器学习'
-url: '' # your host
-
-# when build blog on server, if you don't need baseurl, you should leave this value blank.
-# 在服务器上建站时，如果你不需要子域名，请将这一格留空
-# if you're using GitHub Pages, set baseurl to your blog's .
-# 如果你在使用 GitHub Pages, 请将 baseurl 设置为你的网址的子域名
-# for example, if your site is "kaeyleo.github.io", then this url should leave blank.
-# 例如，当你的域名是 "kaeyleo.github.io"  时，这个 url 需要留空
-# but if your created a repo named "myblog", and the site is "kaeyleo.github.io/myblog", change baseurl to '/myblog'
-# 但是，如果你创建了一个叫 "myblog" 的网站，此时网址会变成 "kaeyleo.github.io/myblog" ，这时再将 baseurl 设置为 '/myblog'
+# Site 
+name: "foxdemo"
+title: 'foxdemo'
+description: 'Jekyll template, Medium Styled, for foxdemo'
 baseurl: ''
-
-# International
-language: zh-cn
-
+mailchimp-list: ''
+include: ["-pages"]
 # Navigation links
 nav:
   home: '/'
@@ -36,16 +24,13 @@ nickname: 'zhonger'
 bio: '全栈开发者，热爱前端、运维和架构设计'
 avatar: '/assets/img/profile.webp'
 
-# Search
-search: true
 
 # Night mode
 nightMode: false
 
 # Comments 评论功能
 comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  disqus: ''
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -86,7 +71,7 @@ cnzz:
 
 # Google Analytics
 # google_analytics: UA-XXXXXXXXX-X
-google_analytics: 
+google_analytics: ''
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -108,7 +93,7 @@ RSS: true
 
 # Permalink
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:categories/:title.html
+permalink: /:title/
 
 # TOC
 toc: true
